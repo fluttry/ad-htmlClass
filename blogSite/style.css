@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+#nav{
+    background: red;
+}
+#navItem{
+    font-size: 24px;
+    text-align: center;
+    padding: 8px 0;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+}
+#sideBar{
+    height: 564px;
+    width: 220px;
+    background-color: blue;
+    float: left;
+}
+
+button {
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 32px;
+    color: white;
+    margin-top: 8px;
+    padding: 8px 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.active{
+    cursor: default;
+    color: red;
+}
+#main{
+    background-color: aqua;
+    height: 564px;
+
+}
+footer{
+    clear: both;
+    width: 100%;
+    height: 38px;
+    background-color: black;
+}
