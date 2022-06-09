@@ -1,3 +1,19 @@
 .sidebarHeight{
     min-height: 95vh;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+table,tr,th,td{
+    border: 2px solid rgb(79, 102, 248);
+    border-collapse: collapse;
+    padding: 4px 16px;
+}
+th{
+    background-color: rgb(79, 102, 248);
+    color: white;
+    font-size: 18px;
+}
